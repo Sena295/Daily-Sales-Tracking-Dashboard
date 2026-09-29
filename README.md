@@ -8,6 +8,7 @@ Data consolidation: the Python script (daily_sales_stratos.py) reads daily sales
 Visualization: the standalone HTML dashboard (Dashboard Daily Sales (In).html) renders the consolidated data as an interactive report: daily/MTD revenue vs. forecast vs. budget, passenger volume, ticket average, and day-over-day trends.
 Dashboard
 Open Dashboard Daily Sales (In).html directly in any browser, no server or build step required. All data and rendering logic are self-contained in the file.
+
 ---
 Highlights:
 
