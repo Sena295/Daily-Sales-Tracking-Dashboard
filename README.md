@@ -13,7 +13,7 @@ This project automates a recurring commercial reporting workflow:
 
 ---
 
-### Dashboard
+## Dashboard
 
 Open `Dashboard Daily Sales (In).html` directly in any browser, no server or build step required. All data and rendering logic are self-contained in the file.
 
@@ -44,7 +44,7 @@ Network paths are read from environment variables (`SALES_BASE_PATH`) rather tha
 
 ### Tech Stack
 
-`Python` · `pandas` · `openpyxl` · `pywin32` · `HTML` · `CSS` · `JavaScript` (SVG-based charts, no external libraries)
+`Python` · `pandas` · `openpyxl` · `pywin32` · `HTML` · `CSS` · `JavaScript`
 
 ---
 
