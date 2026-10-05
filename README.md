@@ -9,7 +9,7 @@ Interactive HTML dashboard for daily commercial performance tracking, paired wit
 This project automates a recurring commercial reporting workflow:
 
 - **Data consolidation**: the Python script (`daily_sales_stratos.py`) reads daily sales source files, merges them into the master workbook, applies lookup tables (ADVP range, segment, booking window), and updates the pivot-driven summary reports (Matriz Comitê, Proj. Diária) via Excel COM automation.
-- **Visualization**: the standalone HTML dashboard (`Dashboard Daily Sales (In).html`) renders the consolidated data as an interactive report, covering daily/MTD revenue vs. forecast vs. budget, passenger volume, ticket average, and day-over-day trends.
+- **Visualization**: the standalone HTML dashboard (`Dashboard Daily Sales (In).html`) renders the consolidated data as an interactive report, covering daily revenue vs. forecast vs. budget, passenger volume, ticket average, and day-over-day trends.
 
 ---
 
@@ -21,7 +21,7 @@ Open `Dashboard Daily Sales (In).html` directly in any browser, no server or bui
 
 - MTD revenue vs. forecast vs. budget, with variance indicators
 - Daily sales curve with day-over-day comparison
-- Passenger volume (PAX) and average ticket tracking
+- Passenger volume and average ticket tracking
 - Responsive layout, print-friendly
 
 ---
